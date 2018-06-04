@@ -147,7 +147,8 @@ def predictValue(argv):
     imvalue = imageprepare(argv)
     predint = predictint(imvalue)
     print (predint[0]) #first value in list
-    return (predint[0])
+    output = predint[0]
+    return int(output)
 
 def main(argv):
     """
